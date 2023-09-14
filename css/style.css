@@ -57,13 +57,11 @@ i {
 .f-end {
     justify-content: flex-end;
     align-items: flex-end;
-    align-content: flex-end;
 }
 
 .f-start {
     justify-content: flex-start;
     align-items: flex-start;
-    align-content: flex-start;
 }
 
 .align-self-center {
@@ -91,7 +89,7 @@ i {
 
 .p-down-right {
     left: 0;
-    bottom: 10px;
+    bottom: 20px;
 }
 
 .z-index-high {
@@ -111,13 +109,21 @@ h4 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 0.6rem;
     color: var(--text-white);
     text-align: center;
 }
 
 .d-inline-block {
     display: inline-block;
+}
+
+/*macrocontainer*/
+
+.macrocontainer {
+    background-color: var(--bg-black);
+    width: 100%;
+    height: 100vh;
 }
 
 /*header*/
@@ -166,15 +172,14 @@ div.zoom-cell>img {
 
 /*footerbar*/
 
-.footerbar-container {
+.container-c{
     width: 100%;
-    padding: 15px 10px;
     background-color: var(--bg-grey);
 }
 
 .footer-icon-size {
     font-size: 1.5rem;
-    padding: 5px 20px;
+    padding: 10px 35px;
 }
 
 .footer-side-icons {
@@ -187,4 +192,13 @@ div.zoom-cell>img {
 
 #footer-end-meeting {
     background-color: var(--bg-icon-grey);
+    padding: 30px 30px;
+}
+
+.text-green {
+    color: var(--text-green);
+}
+
+.text-red {
+    color: var(--text-red);
 }
