@@ -103,7 +103,7 @@ i {
 /*miscellaneous*/
 
 .debug {
-    border: 1px solid var(--bg-black);
+    border: 1px solid var(--bg-icon-grey);
 }
 
 h4 {
@@ -122,17 +122,10 @@ h3 {
     display: inline-block;
 }
 
-/*macrocontainer*/
-
-.macrocontainer {
-    background-color: var(--bg-black);
-    width: 100;
-    height: calc(100vh - 90px);
-}
-
 /*header*/
 
 .container-a {
+    background-color:var(--bg-black);
     width: 100%;
     padding: 30px 0;
 }
@@ -150,17 +143,20 @@ h3 {
 /*zoom-cells*/
 
 .container-b {
+    background-color: var(--bg-black);
     width: 100%;
+    height: calc(100vh - 135px);
     padding: 20px 80px;
+    overflow-x: hidden;
+    overflow y: scroll;
 }
 
 .zoom-cell-wrapper {
-    padding: 0 2px 10px 2px;
+    padding: 0 3px 10px 3px;
 }
 
 .zoom-cell {
-    width: 13vw;
-    height: 7vw;
+    width: calc(100% / 7 - 34px);
 }
 
 div.zoom-cell>img {
@@ -176,9 +172,10 @@ div.zoom-cell>img {
 
 /*footerbar*/
 
+
 .container-c{
-    width: 100%;
     background-color: var(--bg-grey);
+    width: 100%;
 }
 
 .footer-icon-size {
