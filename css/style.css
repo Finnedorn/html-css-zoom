@@ -1,0 +1,162 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*root*/
+
+:root {
+    --bg-black: #000000;
+    --bg-icon-grey: #626262;
+    --text-white: #ffffff;
+    --text-green: #4bc800;
+    --text-red: #fa283b;
+}
+
+/*icons-svg*/
+
+i {
+    color: var(--text-white);
+}
+
+/*
+<i class="fa-solid fa-table-cells"></i> --tablecells
+<i class="fa-solid fa-maximize"></i> --maximize
+<i class="fa-solid fa-microphone"></i> --mic
+<i class="fa-solid fa-microphone-slash"></i> --micmuted
+<i class="fa-solid fa-video"></i> --video
+<i class="fa-solid fa-user-plus"></i> --invite
+<i class="fa-solid fa-users"></i> --manage-partecipants
+<i class="fa-solid fa-square-poll-vertical"></i> --polling
+<i class="fa-solid fa-share-from-square"></i> --share-screen
+<i class="fa-solid fa-comment"></i> --chat
+<i class="fa-solid fa-record-vinyl"></i> --record
+<i class="fa-solid fa-table-cells-large"></i> --breakout-rooms
+<i class="fa-solid fa-ellipsis"></i> --more
+<i class="fa-solid fa-chevron-up"></i> --arrow-up
+*/
+
+/*flex*/
+
+.f-wrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.f-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.f-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+/*position*/
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.p-top-left {
+    right: 0;
+    top: 10px;
+}
+
+.p-down-right {
+    left: 0;
+    bottom: 10px;
+}
+
+.z-index-high {
+    z-index: 3;
+}
+
+/*miscellaneous*/
+
+
+body {
+    width: 100%;
+    height: 
+    background-color: aquamarine;
+}
+
+.debug {
+    border: 1px solid var(--bg-black);
+}
+
+h4 {
+    font-size: 1rem;
+    display: inline-block;
+    color: var(--text-white);
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+/*header*/
+
+.container-a {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.button-wrapper {
+    width: 180px;
+}
+
+.button {
+    padding: 5px;
+    background-color: var(--bg-icon-grey);
+    border-radius: 5px;
+}
+
+/*zoom-cells*/
+
+.container-b {
+    width: 100%;
+    padding: 20px 80px;
+    overflow-y: scroll;
+}
+
+.zoom-cell-wrapper {
+    padding: 0 2px 10px 2px;
+}
+
+.zoom-cell {
+    width: 13vw;
+    height: 7vw;
+}
+
+div.zoom-cell>img {
+    width: 13vw;
+    height: 7vw;
+    object-fit: cover;
+}
+
+.zoom-cell-icon {
+    padding: 5px;
+    background-color: rgba(59, 59, 59, 0.398);
+}
