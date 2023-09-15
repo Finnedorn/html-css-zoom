@@ -122,12 +122,18 @@ h3 {
     display: inline-block;
 }
 
+.macro-container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-black);
+}
+
 /*header*/
 
 .container-a {
-    background-color:var(--bg-black);
     width: 100%;
-    padding: 30px 0;
+    height: 8vh;
+    
 }
 
 .button-wrapper {
@@ -143,9 +149,8 @@ h3 {
 /*zoom-cells*/
 
 .container-b {
-    background-color: var(--bg-black);
     width: 100%;
-    height: calc(100vh - 135px);
+    height: calc(100vh - 16vh);
     padding: 20px 80px;
     overflow-x: hidden;
     overflow y: scroll;
@@ -172,10 +177,10 @@ div.zoom-cell>img {
 
 /*footerbar*/
 
-
 .container-c{
     background-color: var(--bg-grey);
     width: 100%;
+    height: 8vh;
 }
 
 .footer-icon-size {
@@ -193,7 +198,8 @@ div.zoom-cell>img {
 
 #footer-end-meeting {
     background-color: var(--bg-icon-grey);
-    padding: 30px 30px;
+    height: 100%;
+    padding: 0 30px;
 }
 
 .text-green {
